@@ -1,0 +1,160 @@
+                                  MODFLOW-2000
+      U.S. GEOLOGICAL SURVEY MODULAR FINITE-DIFFERENCE GROUND-WATER FLOW MODEL
+                           VERSION 1.19.01 03/25/2010
+
+
+ This model run produced both GLOBAL and LIST files.  This is the GLOBAL file.
+
+ GLOBAL LISTING FILE: "TutCoast_simple4.glo"
+                         UNIT    1
+
+ OPENING "TutCoast_simple4.out"
+ FILE TYPE:LIST   UNIT    2   STATUS:REPLACE
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "TutCoast_simple4.hed"
+ FILE TYPE:DATA(BINARY)   UNIT    3   STATUS:UNKNOWN
+ FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+
+ OPENING "TutCoast_simple4.ccf"
+ FILE TYPE:DATA(BINARY)   UNIT   40   STATUS:UNKNOWN
+ FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+
+ OPENING "TutCoast_simple4.lmt"
+ FILE TYPE:LMT6   UNIT    4   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+#                                                                                                                                                                                                       
+# Global Input Files                                                                                                                                                                                    
+
+ OPENING "TutCoast_simple4.dis"
+ FILE TYPE:DIS   UNIT    7   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+#                                                                                                                                                                                                       
+# Flow Process Input Files                                                                                                                                                                              
+
+ OPENING "TutCoast_simple4.ba6"
+ FILE TYPE:BAS6   UNIT    8   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "TutCoast_simple4.lpf"
+ FILE TYPE:LPF   UNIT    9   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "TutCoast_simple4.oc"
+ FILE TYPE:OC   UNIT   10   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "TutCoast_simple4.rch"
+ FILE TYPE:RCH   UNIT   11   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "TutCoast_simple4.wel"
+ FILE TYPE:WEL   UNIT   12   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "TutCoast_simple4.pcg"
+ FILE TYPE:PCG   UNIT   13   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ THE FREE FORMAT OPTION HAS BEEN SELECTED
+
+ DISCRETIZATION INPUT DATA READ FROM UNIT    7
+ # MF2K DISCRETIZATION FILE
+ #
+ #
+ # NLAY NROW NCOL NPER TIMEUNITS LENUNITS
+    1 LAYERS       100 ROWS       100 COLUMNS
+    1 STRESS PERIOD(S) IN SIMULATION
+ MODEL TIME UNIT IS DAYS
+ MODEL LENGTH UNIT IS METERS
+ THE GROUND-WATER TRANSPORT PROCESS IS INACTIVE
+
+ THE OBSERVATION PROCESS IS INACTIVE
+ THE SENSITIVITY PROCESS IS INACTIVE
+ THE PARAMETER-ESTIMATION PROCESS IS INACTIVE
+
+ MODE: FORWARD
+
+  Confining bed flag for each layer:
+   0
+
+      90200  ELEMENTS OF GX ARRAY USED OUT OF      90200
+      10000  ELEMENTS OF GZ ARRAY USED OUT OF      10000
+      10000  ELEMENTS OF IG ARRAY USED OUT OF      10000
+
+
+
+                               DELR
+ READING ON UNIT    7 WITH FORMAT: (FREE)              
+
+
+
+                               DELC
+ READING ON UNIT    7 WITH FORMAT: (FREE)              
+
+
+ STRESS PERIOD     LENGTH       TIME STEPS     MULTIPLIER FOR DELT    SS FLAG
+ ----------------------------------------------------------------------------
+        1         1.000000          1                    1.000         SS
+
+ STEADY-STATE SIMULATION
+
+
+
+
+ LPF1 -- LAYER PROPERTY FLOW PACKAGE, VERSION 1, 1/11/2000
+         INPUT READ FROM UNIT    9
+ CELL-BY-CELL FLOWS WILL BE SAVED ON UNIT   40
+ HEAD AT CELLS THAT CONVERT TO DRY=  -888.00    
+ No named parameters
+
+   LAYER FLAGS:
+ LAYER       LAYTYP        LAYAVG         CHANI        LAYVKA        LAYWET
+ ---------------------------------------------------------------------------
+    1             1             0    -1.000E+00             1             0
+
+   INTERPRETATION OF LAYER FLAGS:
+                        INTERBLOCK     HORIZONTAL    DATA IN
+         LAYER TYPE   TRANSMISSIVITY   ANISOTROPY   ARRAY VKA   WETTABILITY
+ LAYER      (LAYTYP)      (LAYAVG)       (CHANI)      (LAYVKA)      (LAYWET)
+ ---------------------------------------------------------------------------
+    1   CONVERTIBLE      HARMONIC      VARIABLE    ANISOTROPY  NON-WETTABLE
+
+      30000 ELEMENTS IN X ARRAY ARE USED BY LPF
+          6 ELEMENTS IN IX ARRAY ARE USED BY LPF
+
+ PCG2 -- CONJUGATE GRADIENT SOLUTION PACKAGE, VERSION 2.4, 12/29/98
+ MAXIMUM OF     25 CALLS OF SOLUTION ROUTINE
+ MAXIMUM OF     50 INTERNAL ITERATIONS PER CALL TO SOLUTION ROUTINE
+ MATRIX PRECONDITIONING TYPE :    1
+      22500 ELEMENTS IN X ARRAY ARE USED BY PCG
+       8750 ELEMENTS IN IX ARRAY ARE USED BY PCG
+      40000 ELEMENTS IN Z ARRAY ARE USED BY PCG
+
+      52500  ELEMENTS OF X ARRAY USED OUT OF      52500
+      40000  ELEMENTS OF Z ARRAY USED OUT OF      40000
+       8756  ELEMENTS OF IX ARRAY USED OUT OF       8756
+          0  ELEMENTS OF XHS ARRAY USED OUT OF          1
+
+
+
+                                    SOLUTION BY THE CONJUGATE-GRADIENT METHOD
+                                   -------------------------------------------
+                    MAXIMUM NUMBER OF CALLS TO PCG ROUTINE =       25
+                        MAXIMUM ITERATIONS PER CALL TO PCG =       50
+                               MATRIX PRECONDITIONING TYPE =        1
+        RELAXATION FACTOR (ONLY USED WITH PRECOND. TYPE 1) =    0.10000E+01
+ PARAMETER OF POLYNOMIAL PRECOND. = 2 (2) OR IS CALCULATED :        0
+                         HEAD CHANGE CRITERION FOR CLOSURE =    0.10000E-01
+                     RESIDUAL CHANGE CRITERION FOR CLOSURE =    0.10000E-01
+            PCG HEAD AND RESIDUAL CHANGE PRINTOUT INTERVAL =      999
+     PRINTING FROM SOLVER IS LIMITED(1) OR SUPPRESSED (>1) =        2
+                                         DAMPING PARAMETER =    0.10000E+01
+
+ WETTING CAPABILITY IS NOT ACTIVE IN ANY LAYER
+
+
+     0 Well parameters
+
+
+     0 Recharge parameters

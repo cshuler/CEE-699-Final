@@ -1,0 +1,19 @@
+# MF2K NAME file
+#
+# Output Files
+GLOBAL          1 "TutCoast_simple4.glo"
+LIST            2 "TutCoast_simple4.out"
+DATA(BINARY)    3 "TutCoast_simple4.hed"
+DATA(BINARY)   40 "TutCoast_simple4.ccf"
+LMT6            4 "TutCoast_simple4.lmt"
+#
+# Global Input Files
+DIS             7 "TutCoast_simple4.dis"
+#
+# Flow Process Input Files
+BAS6            8 "TutCoast_simple4.ba6"
+LPF             9 "TutCoast_simple4.lpf"
+OC             10 "TutCoast_simple4.oc"
+RCH            11 "TutCoast_simple4.rch"
+WEL            12 "TutCoast_simple4.wel"
+PCG            13 "TutCoast_simple4.pcg"
