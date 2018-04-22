@@ -21,12 +21,12 @@
  FILE TYPE:RCH   UNIT   19   STATUS:OLD    
  FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
 
- OPENING test_no_4.pcg
- FILE TYPE:PCG   UNIT   27   STATUS:OLD    
- FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
-
  OPENING test_no_4.wel
  FILE TYPE:WEL   UNIT   20   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING test_no_4.pcg
+ FILE TYPE:PCG   UNIT   27   STATUS:OLD    
  FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
 
  OPENING test_no_4.oc
@@ -1333,6 +1333,6 @@
          TOTAL TIME  86400.      1440.0      24.000     1.00000     2.73785E-03
 1
 
- Run end date and time (yyyy/mm/dd hh:mm:ss): 2018/04/16 21:03:06
- Elapsed run time:  0.025 Seconds
+ Run end date and time (yyyy/mm/dd hh:mm:ss): 2018/04/21 23:00:04
+ Elapsed run time:  0.039 Seconds
 

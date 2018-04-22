@@ -7,6 +7,10 @@ DATA(BINARY)    3 "TutCoast_simple4.hed"
 DATA(BINARY)   40 "TutCoast_simple4.ccf"
 LMT6            4 "TutCoast_simple4.lmt"
 #
+# Obs-Sen-Pes Process Input Files
+OBS            14 "TutCoast_simple4.obs"
+HOB            15 "TutCoast_simple4.hob"
+#
 # Global Input Files
 DIS             7 "TutCoast_simple4.dis"
 #

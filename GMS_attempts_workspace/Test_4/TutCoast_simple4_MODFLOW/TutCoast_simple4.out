@@ -1203,3 +1203,84 @@
  STRESS PERIOD TIME  86400.      1440.0      24.000      1.0000     2.73785E-03
          TOTAL TIME  86400.      1440.0      24.000      1.0000     2.73785E-03
 1
+
+ DATA AT HEAD LOCATIONS
+
+        OBSERVATION     OBSER-     SIMUL.                          WEIGHTED
+   OBS#    NAME         VATION     EQUIV.    RESIDUAL  WEIGHT**.5  RESIDUAL
+                          *          *
+      1 hed1            4.40       5.95      -1.56       1.96      -3.05    
+      2 hed2            2.81       6.30      -3.49       1.96      -6.85    
+      3 hed3            2.89       5.17      -2.27       1.96      -4.45    
+      4 hed4            1.18       5.06      -3.88       1.96      -7.60    
+      5 hed5            1.43       4.60      -3.16       1.96      -6.19    
+      6 hed6            1.45       4.26      -2.81       1.96      -5.51    
+      7 hed7            1.35       3.94      -2.59       1.96      -5.08    
+      8 hed8            1.74       7.21      -5.47       1.96      -10.7    
+      9 hed9            1.74       7.01      -5.27       1.96      -10.3    
+     10 hed10          0.994       5.50      -4.50       1.96      -8.83    
+     11 hed11          0.994       5.42      -4.43       1.96      -8.68    
+     12 hed12           1.37       5.88      -4.51       1.96      -8.83    
+     13 hed13           1.37       6.07      -4.70       1.96      -9.22    
+     14 hed14          0.960       2.91      -1.95       1.96      -3.83    
+     15 hed15          0.960       3.42      -2.46       1.96      -4.83    
+     16 hed16          0.843       3.12      -2.28       1.96      -4.46    
+     17 hed17          0.843       3.45      -2.60       1.96      -5.10    
+
+ * THE OBSERVATION (AND CORRESPONDING SIMULATED EQUIVALENT) IS HEAD OR TEMPORAL
+   CHANGE IN HEAD, AS SPECIFIED IN THE "HOB" INPUT FILE.  NEGATIVE TEMPORAL
+   CHANGES INDICATE DRAWDOWN.
+
+ STATISTICS FOR HEAD RESIDUALS :
+ MAXIMUM WEIGHTED RESIDUAL  : -3.05     OBS#      1
+ MINIMUM WEIGHTED RESIDUAL  : -10.7     OBS#      8
+ AVERAGE WEIGHTED RESIDUAL  : -6.68    
+ # RESIDUALS >= 0. :      0
+ # RESIDUALS < 0.  :     17
+ NUMBER OF RUNS  :    1  IN   17 OBSERVATIONS
+
+ SUM OF SQUARED WEIGHTED RESIDUALS (HEADS ONLY)   850.02    
+
+ SUM OF SQUARED WEIGHTED RESIDUALS (ALL DEPENDENT VARIABLES)   850.02    
+
+ STATISTICS FOR ALL RESIDUALS :
+ AVERAGE WEIGHTED RESIDUAL  :-0.668E+01
+ # RESIDUALS >= 0. :      0
+ # RESIDUALS < 0.  :     17
+ NUMBER OF RUNS  :    1  IN   17 OBSERVATIONS
+
+ COULD NOT CALCULATE THE RUNS STATISTIC
+
+ ORDERED DEPENDENT-VARIABLE WEIGHTED RESIDUALS
+ NUMBER OF RESIDUALS INCLUDED:        17
+     -10.7      -10.3      -9.22      -8.83      -8.83      -8.68      -7.60    
+     -6.85      -6.19      -5.51      -5.10      -5.08      -4.83      -4.46    
+     -4.45      -3.83      -3.05    
+
+ CORRELATION BETWEEN ORDERED WEIGHTED RESIDUALS AND NORMAL ORDER STATISTICS
+ FOR OBSERVATIONS =    0.947    
+
+ --------------------------------------------------------------------------
+ COMMENTS ON THE INTERPRETATION OF THE CORRELATION BETWEEN
+ WEIGHTED RESIDUALS AND NORMAL ORDER STATISTICS:
+
+ Generally, IF the reported CORRELATION is LESS than the critical value,
+ at the selected significance level (usually 5 or 10%), the hypothesis
+ that the weighted residuals are INDEPENDENT AND NORMALLY DISTRIBUTED
+ would be REJECTED.  HOWEVER, in this case, conditions are outside of
+ the range of published critical values as discussed below.
+
+ The sum of the number of observations and prior information items is    17
+ which is less than 35, the minimum value for which critical values are
+ published.  Therefore, the critical values for the 5 and 10% significance
+ levels are less than 0.943 and 0.952, respectively.
+
+ CORRELATIONS GREATER than these critical values indicate that, probably, the 
+ weighted residuals ARE INDEPENDENT AND NORMALLY DISTRIBUTED.
+
+ Correlations LESS than these critical values MAY BE ACCEPTABLE, and
+ rejection of the hypothesis is not necessarily warranted.
+
+ The Kolmogorov-Smirnov test can be used to further evaluate the residuals.
+ --------------------------------------------------------------------------
+

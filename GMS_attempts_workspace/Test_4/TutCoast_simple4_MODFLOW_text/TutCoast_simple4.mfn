@@ -3,6 +3,8 @@ LIST                2         TutCoast_simple4.out     #  1. Ftype Nunit Fname [
 DATA(BINARY)        3         TutCoast_simple4.hed     #  1. Ftype Nunit Fname [Option]
 DATA(BINARY)        40        TutCoast_simple4.ccf     #  1. Ftype Nunit Fname [Option]
 LMT6                4         TutCoast_simple4.lmt6    #  1. Ftype Nunit Fname [Option]
+OBS                 14        TutCoast_simple4.obs     #  1. Ftype Nunit Fname [Option]
+HOB                 15        TutCoast_simple4.hob     #  1. Ftype Nunit Fname [Option]
 DIS                 7         TutCoast_simple4.dis     #  1. Ftype Nunit Fname [Option]
 BAS6                8         TutCoast_simple4.ba6     #  1. Ftype Nunit Fname [Option]
 LPF                 9         TutCoast_simple4.lpf     #  1. Ftype Nunit Fname [Option]

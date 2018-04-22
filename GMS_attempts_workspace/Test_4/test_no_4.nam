@@ -5,8 +5,8 @@ DIS               11  test_no_4.dis
 BAS6              13  test_no_4.bas 
 LPF               15  test_no_4.lpf 
 RCH               19  test_no_4.rch 
-PCG               27  test_no_4.pcg 
 WEL               20  test_no_4.wel 
+PCG               27  test_no_4.pcg 
 OC                14  test_no_4.oc 
 DATA(BINARY)      40  test_no_4.cbc REPLACE
 DATA(BINARY)      51  test_no_4.hds REPLACE
